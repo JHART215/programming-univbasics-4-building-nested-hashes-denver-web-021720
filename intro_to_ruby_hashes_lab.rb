@@ -25,5 +25,5 @@ def monopoly_with_fourth_tier
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
   # complexity.
-  {:oil => {:fields => 4, :rent_in_dollars => {:one_field_owned => 50, :two_fields_owned => 100, :three_fields_owned => 150, :four_fields_owned => 200}, :names => {:reading_railroad => {"mortgage_value" => "$100"}, :pennsylvania_railroad => {"mortgage_value" => "$200"}, :b_and_o_railroad => {"mortgage_value" => "$400"}, :shortline_railroad => {"mortgage_value" => "$800"}}}}
+  {:oil => {:fields => 4, :rent_in_dollars => {:one_field_owned => 50, :two_fields_owned => 100, :three_fields_owned => 150, :four_fields_owned => 200}, :output => {:first_field => {}, :second_field => {}, :third_field => {}, :forth_field => {}}}}
 end
